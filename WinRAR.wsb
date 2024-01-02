@@ -1,0 +1,13 @@
+<Configuration>
+  <VGpu>Disable</VGpu>
+  <Networking>Default</Networking>
+  <MappedFolders>
+    <MappedFolder>
+      <HostFolder>D:\Sanbox\winrar</HostFolder>
+      <ReadOnly>true</ReadOnly>
+    </MappedFolder>
+  </MappedFolders>
+  <LogonCommand>
+    <Command>cmd.exe /k C:\Users\WDAGUtilityAccount\Desktop\winrar\install.bat /S</Command>
+  </LogonCommand>
+</Configuration>
