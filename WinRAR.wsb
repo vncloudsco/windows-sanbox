@@ -3,7 +3,7 @@
   <Networking>Default</Networking>
   <MappedFolders>
     <MappedFolder>
-      <HostFolder>D:\Sanbox\winrar</HostFolder>
+      <HostFolder>D:\Sanbox\install</HostFolder>
       <ReadOnly>true</ReadOnly>
     </MappedFolder>
   </MappedFolders>
