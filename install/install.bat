@@ -11,3 +11,9 @@ powershell -Command "& { Invoke-WebRequest -Uri 'https://github.com/notepad-plus
 
 :: Chạy trình cài đặt notepad
 C:\nppInstaller.exe /S
+
+
+
+powershell -Command "& { Invoke-WebRequest -Uri 'https://cdn.stubdownloader.services.mozilla.com/builds/firefox-stub/vi/win/53dcf9e28facc333ab3e2bd006fe541ae48ad7f181b35aa0d8d719645261a0bc/Firefox%20Installer.exe' -OutFile 'C:\Firefox.exe' }"
+
+C:\Firefox.exe /S
