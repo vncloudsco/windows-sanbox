@@ -9,5 +9,5 @@ C:\WinRARSetup.exe /S
 
 powershell -Command "& { Invoke-WebRequest -Uri 'https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.6/npp.8.6.Installer.x64.exe' -OutFile 'C:\nppInstaller.exe' }"
 
-:: Chạy trình cài đặt WinRAR
+:: Chạy trình cài đặt notepad
 C:\nppInstaller.exe /S
